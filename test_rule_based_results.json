@@ -1,0 +1,40 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_text": "sarah opened the door to her grandmothers attic dust motes danced in the afternoon sunlight that streamed through the small window the air was thick with the scent of old books and memories she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures in the corner, she spotted an old wooden chest covered in intricate carvings the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light suddenly, a voice echoed through the attic sarah, my dear, said the voice, which seemed to come from everywhere and nowhere ive been waiting for you sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight the old woman smiled warmly the chest contains the familys greatest secret, her grandmother explained it holds the power to see into the past and future",
+    "scene_prompt": "sarah opened the door to her grandmothers attic dust motes danced in the afternoon sunlight that streamed through the small window the air was thick with the scent of old books and memories she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures in the corner, she spotted an old wooden chest covered in intricate carvings the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light suddenly, a voice echoed through the attic sarah, my dear, said the voice, which seemed to come from everywhere and nowhere ive been waiting for you sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight the old woman smiled warmly the chest contains the familys greatest secret, her grandmother explained it holds the power to see into the past and future, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "sarah opened the door to her grandmothers attic dust motes danced in the afternoon sunlight that streamed through the small window the air was thick with the scent of old books and memories she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures in the corner, she spotted an old wooden chest covered in intricate carvings the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light suddenly, a voice echoed through the attic sarah, my dear, said the voice, which seemed to come from everywhere and nowhere ive been waiting for you sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight the old woman smiled warmly the chest contains the familys greatest secret, her grandmother explained it holds the power to see into the past and future, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "sarah opened the door to her grandmothers attic dust motes danced in the afternoon sunlight that streamed through the small window the air was thick with the scent of old books and memories she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures in the corner, she spotted an old wooden chest covered in intricate carvings the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light suddenly, a voice echoed through the attic sarah, my dear, said the voice, which seemed to come from everywhere and nowhere ive been waiting for you sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight the old woman smiled warmly the chest contains the familys greatest secret, her grandmother explained it holds the power to see into the past and future, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.472547"
+  },
+  {
+    "chunk_index": 1,
+    "chunk_text": "but only someone with pure intentions can unlock its mysteries sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest",
+    "scene_prompt": "but only someone with pure intentions can unlock its mysteries sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "but only someone with pure intentions can unlock its mysteries sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "but only someone with pure intentions can unlock its mysteries sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.472567"
+  }
+]

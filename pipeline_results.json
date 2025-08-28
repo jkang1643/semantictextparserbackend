@@ -1,0 +1,25 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_text": "detective sarah chen walked through the rain-soaked streets of chinatown, her trench coat billowing in the wind the neon signs reflected in the puddles, creating a kaleidoscope of colors she was following a lead on the mysterious disappearance of professor james wilson, a renowned archaeologist who had been studying ancient artifacts as she turned the corner onto grant avenue, she noticed a figure in a dark hooded jacket ducking into an alley sarah quickened her pace, her hand instinctively reaching for her service weapon the alley was narrow and dimly lit, with steam rising from manhole covers",
+    "scene_prompt": "detective sarah chen walked through the rain-soaked streets of chinatown, her trench coat billowing in the wind the neon signs reflected in the puddles, creating a kaleidoscope of colors she was following a lead on the mysterious disappearance of professor james wilson, a renowned archaeologist who had been studying ancient artifacts as she turned the corner onto grant avenue, she noticed a figure in a dark hooded jacket ducking into an alley sarah quickened her pace, her hand instinctively reaching for her service weapon the alley was narrow and dimly lit, with steam rising from manhole covers, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "detective sarah chen walked through the rain-soaked streets of chinatown, her trench coat billowing in the wind the neon signs reflected in the puddles, creating a kaleidoscope of colors she was following a lead on the mysterious disappearance of professor james wilson, a renowned archaeologist who had been studying ancient artifacts as she turned the corner onto grant avenue, she noticed a figure in a dark hooded jacket ducking into an alley sarah quickened her pace, her hand instinctively reaching for her service weapon the alley was narrow and dimly lit, with steam rising from manhole covers, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "detective sarah chen walked through the rain-soaked streets of chinatown, her trench coat billowing in the wind the neon signs reflected in the puddles, creating a kaleidoscope of colors she was following a lead on the mysterious disappearance of professor james wilson, a renowned archaeologist who had been studying ancient artifacts as she turned the corner onto grant avenue, she noticed a figure in a dark hooded jacket ducking into an alley sarah quickened her pace, her hand instinctively reaching for her service weapon the alley was narrow and dimly lit, with steam rising from manhole covers, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Detective Sarah Chen",
+      "Sarah",
+      "Professor James Wilson",
+      "Chinatown",
+      "Grant Avenue"
+    ],
+    "timestamp": "2025-08-28T17:35:11.246454"
+  }
+]

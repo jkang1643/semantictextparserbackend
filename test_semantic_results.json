@@ -1,0 +1,306 @@
+[
+  {
+    "chunk_index": 0,
+    "chunk_text": "sarah opened the door to her grandmothers attic",
+    "scene_prompt": "sarah opened the door to her grandmothers attic, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "sarah opened the door to her grandmothers attic, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "sarah opened the door to her grandmothers attic, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474169"
+  },
+  {
+    "chunk_index": 1,
+    "chunk_text": "dust motes danced in the afternoon sunlight that streamed through the small window",
+    "scene_prompt": "dust motes danced in the afternoon sunlight that streamed through the small window, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "dust motes danced in the afternoon sunlight that streamed through the small window, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "dust motes danced in the afternoon sunlight that streamed through the small window, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474202"
+  },
+  {
+    "chunk_index": 2,
+    "chunk_text": "the air was thick with the scent of old books and memories",
+    "scene_prompt": "the air was thick with the scent of old books and memories, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "the air was thick with the scent of old books and memories, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "the air was thick with the scent of old books and memories, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474229"
+  },
+  {
+    "chunk_index": 3,
+    "chunk_text": "she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures",
+    "scene_prompt": "she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "she carefully stepped across the creaking floorboards, her eyes scanning the piles of forgotten treasures, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474240"
+  },
+  {
+    "chunk_index": 4,
+    "chunk_text": "in the corner, she spotted an old wooden chest covered in intricate carvings",
+    "scene_prompt": "in the corner, she spotted an old wooden chest covered in intricate carvings, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "in the corner, she spotted an old wooden chest covered in intricate carvings, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "in the corner, she spotted an old wooden chest covered in intricate carvings, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474247"
+  },
+  {
+    "chunk_index": 5,
+    "chunk_text": "the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light",
+    "scene_prompt": "the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "the brass lock was tarnished with age, but the keyhole seemed to glow with an otherworldly light, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474271"
+  },
+  {
+    "chunk_index": 6,
+    "chunk_text": "as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light",
+    "scene_prompt": "as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "as she reached out to touch it, the chest began to hum softly, and the carvings seemed to move in the flickering light, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474309"
+  },
+  {
+    "chunk_index": 7,
+    "chunk_text": "suddenly, a voice echoed through the attic",
+    "scene_prompt": "suddenly, a voice echoed through the attic, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "suddenly, a voice echoed through the attic, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "suddenly, a voice echoed through the attic, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474322"
+  },
+  {
+    "chunk_index": 8,
+    "chunk_text": "sarah, my dear, said the voice, which seemed to come from everywhere and nowhere",
+    "scene_prompt": "sarah, my dear, said the voice, which seemed to come from everywhere and nowhere, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "sarah, my dear, said the voice, which seemed to come from everywhere and nowhere, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "sarah, my dear, said the voice, which seemed to come from everywhere and nowhere, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474563"
+  },
+  {
+    "chunk_index": 9,
+    "chunk_text": "ive been waiting for you",
+    "scene_prompt": "ive been waiting for you, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "ive been waiting for you, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "ive been waiting for you, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474712"
+  },
+  {
+    "chunk_index": 10,
+    "chunk_text": "sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight",
+    "scene_prompt": "sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "sarah turned around to see her grandmothers ghostly figure standing by the window, her silver hair glowing in the sunlight, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474779"
+  },
+  {
+    "chunk_index": 11,
+    "chunk_text": "the old woman smiled warmly",
+    "scene_prompt": "the old woman smiled warmly, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "the old woman smiled warmly, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "the old woman smiled warmly, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474816"
+  },
+  {
+    "chunk_index": 12,
+    "chunk_text": "the chest contains the familys greatest secret, her grandmother explained",
+    "scene_prompt": "the chest contains the familys greatest secret, her grandmother explained, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "the chest contains the familys greatest secret, her grandmother explained, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "the chest contains the familys greatest secret, her grandmother explained, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.474982"
+  },
+  {
+    "chunk_index": 13,
+    "chunk_text": "it holds the power to see into the past and future",
+    "scene_prompt": "it holds the power to see into the past and future, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "it holds the power to see into the past and future, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "it holds the power to see into the past and future, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.475265"
+  },
+  {
+    "chunk_index": 14,
+    "chunk_text": "but only someone with pure intentions can unlock its mysteries",
+    "scene_prompt": "but only someone with pure intentions can unlock its mysteries, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "but only someone with pure intentions can unlock its mysteries, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "but only someone with pure intentions can unlock its mysteries, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.475633"
+  },
+  {
+    "chunk_index": 15,
+    "chunk_text": "sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest",
+    "scene_prompt": "sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest, high quality, detailed, realistic photography, high resolution, professional photography",
+    "image_result": {
+      "success": false,
+      "image_url": "https://via.placeholder.com/512x512/cccccc/666666?text=Mock+DALL-E+Image",
+      "service": "DALL-E",
+      "prompt": "sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest, high quality, detailed, realistic photography, high resolution, professional photography",
+      "metadata": {
+        "note": "Mock image - API not available",
+        "original_prompt": "sarah felt a mixture of excitement and trepidation as she turned back to the mysterious chest, high quality, detailed, realistic photography, high resolution, professional photography"
+      }
+    },
+    "characters": [
+      "Sarah"
+    ],
+    "timestamp": "2025-08-28T17:17:37.475853"
+  }
+]

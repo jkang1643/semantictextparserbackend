@@ -1,0 +1,14 @@
+# Text-to-Image Pipeline Environment Variables
+# Copy this file to .env and fill in your actual API keys
+
+# OpenAI API Key (required for DALL-E and GPT prompt generation)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Stable Diffusion API Configuration (optional)
+# Uncomment and fill in if using Stable Diffusion instead of DALL-E
+# STABLE_DIFFUSION_API_URL=https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image
+# STABLE_DIFFUSION_API_KEY=your_stability_ai_api_key_here
+
+# Alternative Stable Diffusion API (if using a different service)
+# STABLE_DIFFUSION_API_URL=https://your-stable-diffusion-api-endpoint.com/generate
+# STABLE_DIFFUSION_API_KEY=your_api_key_here
