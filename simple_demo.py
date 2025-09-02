@@ -114,7 +114,7 @@ class SimplePromptGenerator:
 class SimpleImageGenerator:
     """Simplified image generator that returns mock results."""
     
-    def __init__(self, service: str = "dalle"):
+    def __init__(self, service: str = "nano_banana"):
         self.service = service
     
     def generate_image(self, prompt: str, **kwargs) -> Dict[str, Any]:
@@ -133,7 +133,7 @@ class SimpleImageGenerator:
 class SimpleTextToImagePipeline:
     """Simplified text-to-image pipeline for demo."""
     
-    def __init__(self, segmentation_method: str = "rule_based", image_service: str = "dalle"):
+    def __init__(self, segmentation_method: str = "rule_based", image_service: str = "nano_banana"):
         self.segmentation_method = segmentation_method
         self.image_service = image_service
         
@@ -262,7 +262,7 @@ def main():
     # Initialize pipeline
     pipeline = SimpleTextToImagePipeline(
         segmentation_method="rule_based",
-        image_service="dalle"
+        image_service="nano_banana"
     )
     
     # Process text

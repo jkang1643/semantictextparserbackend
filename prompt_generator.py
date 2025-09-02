@@ -39,7 +39,7 @@ class PromptGenerator:
         
         system_prompt = f"""You are an expert at creating visual scene descriptions for AI image generation. 
         Transform the given text into a detailed, visual scene description that would work well with 
-        text-to-image models like DALL-E, Stable Diffusion, or Midjourney.
+        text-to-image models like Google Nano Banana, Stable Diffusion, or Midjourney.
         
         Style: {style}
         

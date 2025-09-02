@@ -1,11 +1,15 @@
 # Text-to-Image Pipeline Environment Variables
 # Copy this file to .env and fill in your actual API keys
 
-# OpenAI API Key (required for DALL-E and GPT prompt generation)
+# Google Nano Banana API Configuration (primary image generation service)
+NANO_BANANA_API_KEY=your_nano_banana_api_key_here
+NANO_BANANA_API_URL=https://api.nanobanana.ai/v1/images/generations
+
+# OpenAI API Key (optional - for GPT prompt generation if needed)
 OPENAI_API_KEY=your_openai_api_key_here
 
-# Stable Diffusion API Configuration (optional)
-# Uncomment and fill in if using Stable Diffusion instead of DALL-E
+# Stable Diffusion API Configuration (optional - fallback service)
+# Uncomment and fill in if using Stable Diffusion as fallback
 # STABLE_DIFFUSION_API_URL=https://api.stability.ai/v1/generation/stable-diffusion-xl-1024-v1-0/text-to-image
 # STABLE_DIFFUSION_API_KEY=your_stability_ai_api_key_here
 

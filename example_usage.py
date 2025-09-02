@@ -59,7 +59,7 @@ def example_advanced_configuration():
     # Custom pipeline configuration
     pipeline = TextToImagePipeline(
         segmentation_method="semantic",
-        image_service="dalle",
+        image_service="nano_banana",
         max_tokens_per_chunk=256,  # Smaller chunks for more detailed scenes
         similarity_threshold=0.7   # Higher threshold for more cohesive chunks
     )

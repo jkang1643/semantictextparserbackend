@@ -94,7 +94,7 @@ from text_to_image_pipeline_lite import TextToImagePipelineLite
 # Initialize pipeline
 pipeline = TextToImagePipelineLite(
     segmentation_method="rule_based",
-    image_service="dalle"
+            image_service="nano_banana"
 )
 
 # Process text

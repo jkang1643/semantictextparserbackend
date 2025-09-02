@@ -17,7 +17,7 @@ Usage:
 import argparse
 import sys
 import os
-from text_to_image_pipeline import TextToImagePipeline
+from text_to_image_pipeline_lite import TextToImagePipelineLite
 
 def load_text_from_file(filename: str) -> str:
     """Load text from a file."""
@@ -55,7 +55,7 @@ def get_demo_text() -> str:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Text-to-Image Pipeline - Convert text into visual scenes",
+        description="Text-to-Image Pipeline (Lite) - Convert text into visual scenes",
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
@@ -103,9 +103,9 @@ Examples:
     parser.add_argument(
         "--service", "-svc",
         type=str,
-        default="dalle",
-        choices=["dalle", "stable_diffusion"],
-        help="Image generation service (default: dalle)"
+        default="nano_banana",
+        choices=["nano_banana", "stable_diffusion"],
+        help="Image generation service (default: nano_banana)"
     )
     
     parser.add_argument(
@@ -172,7 +172,7 @@ Examples:
     
     # Initialize pipeline
     print(f"🔧 Initializing pipeline with {args.segmentation} segmentation and {args.service} service...")
-    pipeline = TextToImagePipeline(
+    pipeline = TextToImagePipelineLite(
         segmentation_method=args.segmentation,
         image_service=args.service,
         max_tokens_per_chunk=args.max_tokens,

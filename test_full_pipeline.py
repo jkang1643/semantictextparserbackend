@@ -43,7 +43,7 @@ def test_full_pipeline():
     print("🧪 Test 1: Rule-based Segmentation")
     pipeline1 = TextToImagePipelineLite(
         segmentation_method="rule_based",
-        image_service="dalle",
+        image_service="nano_banana",
         max_tokens_per_chunk=256
     )
     
@@ -60,7 +60,7 @@ def test_full_pipeline():
     print("🧪 Test 2: Semantic Segmentation")
     pipeline2 = TextToImagePipelineLite(
         segmentation_method="semantic",
-        image_service="dalle",
+        image_service="nano_banana",
         max_tokens_per_chunk=256,
         similarity_threshold=0.3
     )
@@ -82,7 +82,7 @@ def test_full_pipeline():
         print(f"   Testing {style} style...")
         pipeline_style = TextToImagePipelineLite(
             segmentation_method="rule_based",
-            image_service="dalle"
+            image_service="nano_banana"
         )
         
         results_style = pipeline_style.process_text(text[:500], style=style)

@@ -10,7 +10,7 @@ from image_generator import ImageGenerator
 class TextToImagePipeline:
     def __init__(self, 
                  segmentation_method: str = "semantic",
-                 image_service: str = "dalle",
+                 image_service: str = "nano_banana",
                  max_tokens_per_chunk: int = 512,
                  similarity_threshold: float = 0.6):
         """
@@ -18,7 +18,7 @@ class TextToImagePipeline:
         
         Args:
             segmentation_method: "rule_based" or "semantic"
-            image_service: "dalle" or "stable_diffusion"
+            image_service: "nano_banana" or "stable_diffusion"
             max_tokens_per_chunk: Maximum tokens per chunk
             similarity_threshold: Threshold for semantic similarity
         """

@@ -130,7 +130,7 @@ Examples:
     
     pipeline = TextToImagePipelineLite(
         segmentation_method=args.segmentation,
-        image_service="dalle",
+        image_service="nano_banana",
         max_tokens_per_chunk=args.max_tokens,
         similarity_threshold=args.similarity_threshold
     )

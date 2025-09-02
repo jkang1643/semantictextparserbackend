@@ -59,7 +59,7 @@ def main():
     print("1️⃣ Rule-based segmentation + Realistic style")
     pipeline1 = TextToImagePipelineLite(
         segmentation_method="rule_based",
-        image_service="dalle",
+        image_service="nano_banana",
         max_tokens_per_chunk=300
     )
     
@@ -75,7 +75,7 @@ def main():
     print("2️⃣ Semantic segmentation + Fantasy style")
     pipeline2 = TextToImagePipelineLite(
         segmentation_method="semantic",
-        image_service="dalle",
+        image_service="nano_banana",
         max_tokens_per_chunk=300,
         similarity_threshold=0.4
     )
@@ -92,7 +92,7 @@ def main():
     print("3️⃣ Cinematic style + Variations")
     pipeline3 = TextToImagePipelineLite(
         segmentation_method="rule_based",
-        image_service="dalle"
+        image_service="nano_banana"
     )
     
     results3 = pipeline3.process_text(story[:800], style="cinematic")

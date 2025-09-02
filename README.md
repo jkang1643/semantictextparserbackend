@@ -1,6 +1,6 @@
 # Text-to-Image Pipeline
 
-A sophisticated Python pipeline that converts raw text (stories, transcripts, articles) into visual scenes using AI image generation. The system intelligently segments text, generates descriptive scene prompts, and creates images using services like DALL-E or Stable Diffusion.
+A sophisticated Python pipeline that converts raw text (stories, transcripts, articles) into visual scenes using AI image generation. The system intelligently segments text, generates descriptive scene prompts, and creates images using services like Google Nano Banana or Stable Diffusion.
 
 ## 🚀 Features
 
@@ -8,7 +8,7 @@ A sophisticated Python pipeline that converts raw text (stories, transcripts, ar
 - **Text Preprocessing**: Noise removal, normalization, and entity extraction
 - **Intelligent Segmentation**: Rule-based and semantic-based text chunking
 - **Prompt Enhancement**: LLM-powered scene description generation
-- **Image Generation**: Support for multiple AI image services
+- **Image Generation**: Support for Google Nano Banana and other AI image services
 - **Character Tracking**: Maintains character consistency across scenes
 
 ### Advanced Capabilities
@@ -22,7 +22,8 @@ A sophisticated Python pipeline that converts raw text (stories, transcripts, ar
 ## 📋 Requirements
 
 - Python 3.8+
-- OpenAI API key (for DALL-E and GPT prompt generation)
+- Google Nano Banana API key (for image generation)
+- Optional: OpenAI API key (for GPT prompt generation)
 - Optional: Stable Diffusion API access
 
 ## 🛠️ Installation
@@ -46,6 +47,8 @@ A sophisticated Python pipeline that converts raw text (stories, transcripts, ar
 4. **Set up environment variables:**
    Create a `.env` file in the project root:
    ```env
+   NANO_BANANA_API_KEY=your_nano_banana_api_key_here
+   NANO_BANANA_API_URL=https://api.nanobanana.ai/v1/images/generations
    OPENAI_API_KEY=your_openai_api_key_here
    STABLE_DIFFUSION_API_URL=your_stable_diffusion_api_url
    STABLE_DIFFUSION_API_KEY=your_stable_diffusion_api_key
@@ -74,7 +77,7 @@ python main.py --input "A knight rode through the misty forest..." --style fanta
 ```bash
 python main.py --file novel.txt \
     --segmentation semantic \
-    --service dalle \
+    --service nano_banana \
     --max-tokens 256 \
     --similarity-threshold 0.7 \
     --style artistic \
@@ -90,7 +93,7 @@ from text_to_image_pipeline import TextToImagePipeline
 # Initialize pipeline
 pipeline = TextToImagePipeline(
     segmentation_method="semantic",
-    image_service="dalle",
+    image_service="nano_banana",
     max_tokens_per_chunk=512,
     similarity_threshold=0.6
 )
@@ -144,10 +147,10 @@ backendtextparser/
 
 ### Image Services
 
-**DALL-E:**
+**Google Nano Banana:**
 - High-quality images
 - Good prompt understanding
-- Requires OpenAI API key
+- Requires Nano Banana API key
 
 **Stable Diffusion:**
 - More control over generation parameters
