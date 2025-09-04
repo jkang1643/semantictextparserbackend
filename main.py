@@ -270,6 +270,7 @@ Examples:
         target_scenes=args.target_scenes,
         min_sentences=min_sentences,
         timeout_seconds=args.timeout,
+        use_unlimited_segmentation=True,  # Enable unlimited segmentation by default
         **complexity_params  # Pass complexity parameters
     )
     

@@ -8,6 +8,8 @@ from datetime import datetime
 from text_processor import TextProcessor
 from text_segmenter import TextSegmenter
 from scene_segmenter import SceneSegmenter
+from scene_segmenter_unlimited import UnlimitedSceneSegmenter
+from request_manager import RequestManager
 from prompt_generator import PromptGenerator
 from image_generator import ImageGenerator
 
@@ -21,20 +23,22 @@ class TextToImagePipeline:
                  min_sentences: int = 3,
                  timeout_seconds: int = 300,
                  hysteresis: Optional[Tuple[float, float]] = None,
-                 weights: Optional[Dict[str, float]] = None):
+                 weights: Optional[Dict[str, float]] = None,
+                 use_unlimited_segmentation: bool = True):
         """
         Initialize the complete text-to-image pipeline.
         
         Args:
             segmentation_method: "rule_based", "semantic", or "robust_scene"
             image_service: "nano_banana" or "stable_diffusion"
-            max_tokens_per_chunk: Maximum tokens per chunk
+            max_tokens_per_chunk: Maximum tokens per chunk (used for request splitting)
             similarity_threshold: Threshold for semantic similarity
             target_scenes: Target number of scenes for robust_scene method
             min_sentences: Minimum sentences per scene for robust_scene method
             timeout_seconds: Maximum time to wait for operations (default: 5 minutes)
             hysteresis: (stay_inside, enter_boundary) thresholds for robust_scene
             weights: Weights for novelty scoring components
+            use_unlimited_segmentation: Use unlimited segmentation (no token limits)
         """
         self.segmentation_method = segmentation_method
         self.image_service = image_service
@@ -43,6 +47,7 @@ class TextToImagePipeline:
         self.timeout_seconds = timeout_seconds
         self.hysteresis = hysteresis
         self.weights = weights
+        self.use_unlimited_segmentation = use_unlimited_segmentation
         self.start_time = None
         self.interrupted = False
         
@@ -62,12 +67,20 @@ class TextToImagePipeline:
             print("✅ Text segmenter initialized")
             
             if segmentation_method == "robust_scene":
-                print("🧠 Loading scene segmenter (this may take a moment)...")
-                self.scene_segmenter = SceneSegmenter()
-                print("✅ Scene segmenter initialized")
+                if use_unlimited_segmentation:
+                    print("🧠 Loading unlimited scene segmenter (this may take a moment)...")
+                    self.scene_segmenter = UnlimitedSceneSegmenter()
+                    print("✅ Unlimited scene segmenter initialized")
+                else:
+                    print("🧠 Loading scene segmenter (this may take a moment)...")
+                    self.scene_segmenter = SceneSegmenter()
+                    print("✅ Scene segmenter initialized")
             else:
                 self.scene_segmenter = None
                 
+            self.request_manager = RequestManager(max_tokens_per_request=max_tokens_per_chunk)
+            print("✅ Request manager initialized")
+            
             self.prompt_generator = PromptGenerator()
             print("✅ Prompt generator initialized")
             
@@ -157,8 +170,29 @@ class TextToImagePipeline:
                     segment_params["weights"] = self.weights
                 
                 scenes = self.scene_segmenter.segment_scenes(**segment_params)
-                chunks = [scene['text'] for scene in scenes]
                 print(f"📊 Robust scene segmentation: {len(scenes)} scenes")
+                
+                # Show scene lengths
+                for i, scene in enumerate(scenes, 1):
+                    tokens = self.request_manager.count_tokens(scene['text'])
+                    print(f"   Scene {i}: {tokens} tokens, {len(scene['text'].split())} words")
+                
+                # Split scenes for requests if using unlimited segmentation
+                if self.use_unlimited_segmentation:
+                    print("🔄 Splitting scenes for requests...")
+                    request_scenes = self.request_manager.process_scenes_for_requests(scenes)
+                    
+                    # Show request summary
+                    summary = self.request_manager.get_request_summary(request_scenes)
+                    print(f"📊 Request summary: {summary['total_requests']} requests from {summary['original_scenes']} scenes")
+                    if summary['chunked_scenes'] > 0:
+                        print(f"   {summary['chunked_scenes']} scenes were split into multiple requests")
+                    
+                    chunks = [scene['text'] for scene in request_scenes]
+                    scene_data = request_scenes
+                else:
+                    chunks = [scene['text'] for scene in scenes]
+                    scene_data = scenes
             else:
                 # Use traditional segmentation methods
                 chunks = self.text_segmenter.segment_text(clean_text, self.segmentation_method)
@@ -170,11 +204,6 @@ class TextToImagePipeline:
             
             # Step 3: Process each chunk
             self.results = []
-            scene_data = None
-            
-            if self.segmentation_method == "robust_scene":
-                # Store scene data for processing
-                scene_data = scenes
             
             total_chunks = len(chunks)
             for i, chunk in enumerate(chunks):
