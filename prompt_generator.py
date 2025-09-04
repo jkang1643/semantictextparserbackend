@@ -18,9 +18,10 @@ class PromptGenerator:
         self.api_key = os.getenv("OPENAI_API_KEY")
         
         if self.api_key:
-            openai.api_key = self.api_key
+            self.client = openai.OpenAI(api_key=self.api_key)
         else:
             print("Warning: OPENAI_API_KEY not found in environment variables")
+            self.client = None
     
     def generate_scene_prompt(self, text_chunk: str, style: str = "realistic") -> str:
         """
@@ -33,7 +34,7 @@ class PromptGenerator:
         Returns:
             Enhanced scene prompt for image generation
         """
-        if not self.api_key:
+        if not self.client:
             # Fallback to rule-based prompt generation
             return self._generate_fallback_prompt(text_chunk, style)
         
@@ -55,7 +56,7 @@ class PromptGenerator:
         user_prompt = f"Transform this text into a visual scene description: {text_chunk}"
         
         try:
-            response = openai.ChatCompletion.create(
+            response = self.client.chat.completions.create(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": system_prompt},
@@ -137,7 +138,7 @@ class PromptGenerator:
         user_prompt = f"{context}Current scene text: {text_chunk}"
         
         try:
-            response = openai.ChatCompletion.create(
+            response = self.client.chat.completions.create(
                 model=self.model,
                 messages=[
                     {"role": "system", "content": system_prompt},

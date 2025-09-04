@@ -1,0 +1,25 @@
+# Full requirements for the complete pipeline (CPU-ONLY VERSION)
+# Use this only if you need the full semantic segmentation capabilities
+# IMPORTANT: This file enforces CPU-only dependencies - NO GPU support
+
+# Core dependencies (same as requirements.txt)
+nltk>=3.8.1
+openai>=1.3.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pillow>=11.0.0
+
+# Heavy ML dependencies (CPU-ONLY versions)
+spacy>=3.7.0
+sentence-transformers>=2.2.0
+transformers>=4.35.0
+scikit-learn>=1.3.0
+
+# CRITICAL: PyTorch CPU-only installation
+# DO NOT install torch from default PyPI - it may include CUDA
+# Use the CPU-only index URL instead:
+# pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# Note: After installing these, you'll need to download the spaCy model:
+# python -m spacy download en_core_web_sm

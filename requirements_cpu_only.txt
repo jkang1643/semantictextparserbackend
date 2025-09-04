@@ -1,0 +1,24 @@
+# CPU-ONLY Requirements for Full Pipeline
+# This file ensures ONLY CPU versions are installed - NO GPU/CUDA dependencies
+
+# Core dependencies
+nltk>=3.8.1
+openai>=1.3.0
+requests>=2.31.0
+python-dotenv>=1.0.0
+numpy>=1.24.0
+pillow>=11.0.0
+
+# ML dependencies (CPU-only versions)
+spacy>=3.7.0
+sentence-transformers>=2.2.0
+transformers>=4.35.0
+scikit-learn>=1.3.0
+
+# CRITICAL: PyTorch CPU-only (must be installed separately)
+# This file does NOT include torch to prevent accidental GPU installation
+# Install with: pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+# Additional CPU-only constraints
+--find-links https://download.pytorch.org/whl/cpu
+--no-deps torch  # Prevent automatic torch installation
